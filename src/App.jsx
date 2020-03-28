@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Greeting} from './components/Greeting';
+import {SIR} from './components/SIR';
 
 const App = () => {
   return (
-    <Greeting/>
+    <SIR/>
      
   );
 }
