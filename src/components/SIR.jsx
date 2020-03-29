@@ -4,19 +4,19 @@ import {format} from 'date-fns';
 import Corona from './Img/corona.png';
 
 const Wrapper = styled.div `
-width: 100%;
 padding: 15px;
 max-width: 1400px;
 margin: 0 auto;
-min-height: 95.5vh;
+min-height: 100vh;
 display: flex;
 flex-direction: column;
 align-items: center;
 position: relative;
+border: 6px double yellow;
 
 &:after {
     content: '';
-    background-size: cover;
+    background-size: contain;
     background-image: url(${Corona});
     opacity: 0.3;
     width: 100%;
@@ -38,6 +38,7 @@ margin-bottom: 15px;
 font-weight: 700;
 color: yellow;
 text-shadow: black 3px 3px 1px;
+text-align: center;
 
 `;
 
