@@ -70,16 +70,15 @@ const Input = styled.input `
     }
 `;
 
-const Button = styled.div `
-    height: 38px;
-    width: 100px;
+const Button = styled.button `
+    height: 40px;
+    width: 120px;
     font-size: 26px;
-    text-align: center;
     border: 3px solid black;
     border-radius: 12px;
     margin-left: 15px;
-    padding: 0 5px;
     cursor: pointer;
+    background: none;
 
     &:hover {
         transform: scale(1.1);
